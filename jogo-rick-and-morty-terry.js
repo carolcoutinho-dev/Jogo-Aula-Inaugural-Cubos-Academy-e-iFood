@@ -77,7 +77,7 @@ function reset() {
     loop();
 }
 
-//a função kayPressed é executada toda vez que uma tecla é pressionada
+
 function keyPressed() {
     if (keyIsDown(DOWN_ARROW) && andary < 448) {
         andary += velocidade;
